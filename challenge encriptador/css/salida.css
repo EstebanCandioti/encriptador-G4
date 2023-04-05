@@ -1,0 +1,36 @@
+.salida{
+    height: 90vh;
+    background: #ffff;
+    background-image: url(/img/Munieco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 1rem;
+    color: #0a3871;
+    resize: none;
+    padding-right: 15rem;
+    margin-right:10rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 10px 34px 42px 10px rgba(0, 0, 0, 0.08);
+}
+
+.salida:focus{
+    outline: none;
+}
+
+@media screen and (max-width: 768px) {
+    .salida{
+        padding-right: 0;
+        width:90%;
+        background-image: none;
+        height: 20vh;
+        margin-left: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .salida{
+        width: 80%;
+        height: 20vh;
+    }
+}
