@@ -13,8 +13,9 @@
         <link rel="stylesheet" href="/css/aviso.css">
         <link rel="stylesheet" href="/css/salida.css">
         <link rel="stylesheet" href="/css/salida/salida__copiar.css">
-        <link rel="stylesheet" href="/css/salida/salida-consejo.css">
+        <link rel="stylesheet" href="/css/salida/salida_consejo.css">
         <link rel="stylesheet" href="/css/salida/salida__texto.css">
+        <link rel="stylesheet" href="/css/salida/salida-textarea.css">
         <link rel="stylesheet" href="/css/botonera.css">
         <link rel="stylesheet" href="/css/botonera/botonera-desencriptar.css">
         <link rel="stylesheet" href="/css/botonera/botonera-encriptar.css">
@@ -44,10 +45,10 @@
                         <button class="botonera__desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
                     </div>
                 </section>
-                <section>
-                    <textarea class="salida" readonly="readonly" data-textoFinal data-clipboard-action="copy"  rows="10" cols="30"></textarea>
+                <section class="salida">
                     <p class="salida__texto">No se ha encontrado ningun texto</p>
-                    <small class="salida__consejo">Ingresa el texto que desees encriptar o desencriptar.</small>
+                    <textarea class="salida__textarea" readonly="readonly" data-textoFinal data-clipboard-action="copy"  rows="10" cols="30"></textarea>
+                    <p class="salida__consejo">Ingresa el texto que desees encriptar o desencriptar.</p>
                     <button class="salida__copiar" onclick="copiar()">Copiar</button>
                 </section>
             </main>

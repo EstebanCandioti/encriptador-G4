@@ -1,0 +1,15 @@
+.salida__consejo{
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width:768px) {
+    .salida__consejo{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .salida__consejo{
+        font-size: smaller;
+    }
+}

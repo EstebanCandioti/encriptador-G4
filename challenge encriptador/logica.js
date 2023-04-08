@@ -11,7 +11,7 @@ function btnEncriptar(){
     const textoEncriptado = encriptar(textoInicial.value)
     textoFinal.value= textoEncriptado
     textoInicial.value="";
-    const areaEncriptada = document.querySelector(".salida")
+    const areaEncriptada = document.querySelector(".salida__textarea")
     areaEncriptada.style.backgroundImage="none"
     const consejo=document.querySelector(".salida__consejo")
     consejo.style.display="none"
