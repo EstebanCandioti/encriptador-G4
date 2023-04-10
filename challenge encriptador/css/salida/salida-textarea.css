@@ -8,6 +8,7 @@
     border: none;
     color: #0a3871;
     resize: none;
+    overflow: hidden;
 }
 
 .salida__textarea:focus{
