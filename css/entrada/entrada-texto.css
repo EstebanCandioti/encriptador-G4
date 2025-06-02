@@ -1,0 +1,34 @@
+.entrada__texto{
+    margin-left: 10rem;
+    margin-top: 2rem;
+    width: 90%;
+    background-color: rgba(243, 245, 252, 1);
+    border: none;
+    height: 60vh;
+    resize: none;
+    color: rgb(10, 56, 113, 1);
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 150%;
+}
+.entrada__texto::placeholder{
+    color: rgb(10, 56, 113, 1);
+}
+
+.entrada__texto:focus{
+    outline: none;
+}
+
+@media screen and (max-width: 768px){
+    .entrada__texto{
+        margin-left: 0;
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .entrada__texto{
+        height: 35vh;
+    }
+}

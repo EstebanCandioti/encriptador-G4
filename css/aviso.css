@@ -1,0 +1,16 @@
+.aviso{
+    margin-top: 1.5rem;
+    margin-left: 10rem;
+}
+
+@media screen and (max-width: 768px){
+    .aviso{
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .aviso{
+        margin-left:1rem;
+    }
+}
